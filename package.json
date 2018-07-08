@@ -1,0 +1,23 @@
+{
+  "name": "crypto-js_demo",
+  "version": "1.0.0",
+  "description": "crypto-js for client js.",
+  "main": "index.html",
+  "scripts": {"start":"node index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crypto-js",
+    "browser"
+  ],
+  "author": "Banee Ishaque K",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baneeishaque/Add_to_downloads_CRX.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Baneeishaque/Add_to_downloads_CRX/issues"
+  },
+  "homepage": "https://github.com/Baneeishaque/Add_to_downloads_CRX#readme"
+}

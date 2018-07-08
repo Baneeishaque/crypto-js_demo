@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--TODO : Use Webpage-->
+<html>
+    <head>
+        <title>crypto-js</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script type="text/javascript" src="bower_components/crypto-js/crypto-js.js"></script>
+        <script type="text/javascript">
+
+            // Encrypt
+            var ciphertext = CryptoJS.DES.encrypt('Test', 'Key');
+            console.log("Cipher of \"Test \" Using \"Key\" : "+ciphertext.toString());
+
+            // Decrypt
+            var bytes = CryptoJS.DES.decrypt(ciphertext.toString(), 'Key');
+            console.log("Decode of "+ciphertext.toString()+" Using \"Key\" : "+bytes.toString(CryptoJS.enc.Utf8));
+            
+        </script> 
+    </body>
+</html>

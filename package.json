@@ -14,10 +14,10 @@
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Baneeishaque/Add_to_downloads_CRX.git"
+    "url": "git+https://github.com/Baneeishaque/crypto-js_demo.git"
   },
   "bugs": {
-    "url": "https://github.com/Baneeishaque/Add_to_downloads_CRX/issues"
+    "url": "https://github.com/Baneeishaque/crypto-js_demo/issues"
   },
-  "homepage": "https://github.com/Baneeishaque/Add_to_downloads_CRX#readme"
+  "homepage": "https://github.com/Baneeishaque/crypto-js_demo#readme"
 }
